@@ -13,8 +13,8 @@ const defaultMenu = {
 ➸ Tersisa *%limit Limit*
 ➸ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 %totalexp XP in Total
-➸ Owner: https://wa.me/6283175886677
-➸ Grup Wa Bot: *https://chat.whatsapp.com/KE7aJ2nihCYFmpylMz3ttz*\n*Yang Mau Masuk Silahkan*
+➸ Owner: https://wa.me/212705570169
+➸ Grup Wa Bot: *https://chat.whatsapp.com/GBcxtV97a7UATq6cESZJI6*\n*Yang Mau Masuk Silahkan*
  
 %readmore`.trimStart(),
   header: '╭─『 %category 』',
