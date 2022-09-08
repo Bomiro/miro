@@ -14,7 +14,7 @@ const defaultMenu = {
 ➸ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 %totalexp XP in Total
 ➸ Owner: https://wa.me/212705570169
-➸ Grup Wa Bot: *https://chat.whatsapp.com/GBcxtV97a7UATq6cESZJI6*\n*Yang Mau Masuk Silahkan*
+➸ Grup Wa Bot: *https://chat.whatsapp.com/ISXgRBF5NQR9dvJkApOodT*\n*Yang Mau Masuk Silahkan*
  
 %readmore`.trimStart(),
   header: '╭─『 %category 』',
@@ -431,7 +431,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     //await conn.reply(m.chat, text.trim(), m)
-    await conn.sendButton(m.chat, text.trim(), '© 3S~Bot', {"button[0]": 'Owner', "row[0]": '.owner'}, m, { mentions: [m.sender] })
+    await conn.sendButton(m.chat, text.trim(), '© kamila-Bot-MD by Bomiro', {"button[0]": 'Owner', "row[0]": '.owner'}, m, { mentions: [m.sender] })
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
